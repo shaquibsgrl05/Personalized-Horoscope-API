@@ -13,3 +13,13 @@
     
     For horoscope/history GET routes need to pass same Bearer token and you will get all the history details.
     http://localhost:3000/horoscope/history
+
+4. Design Decisions: Condsidered `MVC Structure` Clean separation of concerns with models, controllers, and services. Also `JWT Authentication` Stateless tokens for scalable authentication across distributed systems.
+
+5. Improvements you’d make with more time: Would have done `Docker Containerization`: Consistent development and deployment environments, also could have done Database Migrations with proper migration system.
+Could have tested the code `Unit & Integration Tests`: Jest/Mocha test suites for controllers and services.Also could have enhance error handling and input validation . Also Caching and Rate Limiting for Performance & Monitoring.
+
+6. How will this scale if each user gets personalised horoscope instead of zodiac zodiac-specific horoscope:
+  Could have scaled taking consideration of Database Architecture. Could have used event bus for load ballancing . Also could have taken microservices approach for high volumes .
+
+
